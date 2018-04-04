@@ -1,7 +1,6 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include <Windows>
 #include "Rolls.h"
 
 
@@ -15,7 +14,7 @@ int main(){
   for(int i = 0; i < 5; i++){
     cout << "You rolled a: " << rollNum(50, 1) << endl;
   }
-  
+
   cin.get();
   return 0;
 }
